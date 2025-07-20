@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 29,
+      "gender": "male",
+      "updatedAt": "2025-07-20T04:10:52.391Z"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 35,
+      "gender": "female",
+      "updatedAt": "2025-07-20T04:10:27.938Z"
+    },
+    {
+      "id": "3",
+      "name": "Alex Johnson",
+      "email": "alex.johnson@example.com",
+      "age": 25,
+      "gender": "other",
+      "isActive": true,
+      "createdAt": "2024-01-17T09:15:00.000Z",
+      "updatedAt": "2024-01-17T09:15:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Othmane Boudali",
+      "email": "othmane.boudali01@gmail.com",
+      "age": 50,
+      "gender": "male",
+      "updatedAt": "2025-07-20T04:15:22.435Z"
+    },
+    {
+      "id": "5",
+      "name": "Samir",
+      "email": "samir@gmail.com",
+      "age": 35,
+      "gender": "male",
+      "isActive": true,
+      "createdAt": "2024-01-19T11:30:00.000Z",
+      "updatedAt": "2024-01-19T11:30:00.000Z"
+    },
+    {
+      "id": "6",
+      "name": "Ahlem",
+      "email": "ahlem@gmail.com",
+      "age": 29,
+      "gender": "female",
+      "updatedAt": "2025-07-20T04:11:06.548Z"
+    },
+    {
+      "id": "57bb",
+      "name": "salma bouhali",
+      "email": "salma@gmail.com",
+      "age": 25,
+      "gender": "female",
+      "isActive": true,
+      "createdAt": "2025-07-20T04:17:04.380Z",
+      "updatedAt": "2025-07-20T04:17:04.380Z"
+    }
+  ]
+}
