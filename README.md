@@ -71,26 +71,6 @@
 - **XLSX** - Export Excel
 - **Concurrently** - Exécution parallèle des serveurs
 
-
-### 🔄 Pattern Signals
-```typescript
-// Store avec Signals pour une réactivité optimale
-@Injectable({ providedIn: 'root' })
-export class UserStore {
-  private readonly _users = signal<User[]>([]);
-  private readonly _isLoading = signal<boolean>(false);
-  
-  readonly users = this._users.asReadonly();
-  readonly isLoading = this._isLoading.asReadonly();
-  
-  readonly statistics = computed(() => ({
-    total: this.users().length,
-    maleCount: this.users().filter(u => u.gender === 'male').length,
-    // ...
-  }));
-}
-```
-
 ### 🏛️ Principes SOLID
 - **S**ingle Responsibility : Chaque classe a une responsabilité unique
 - **O**pen/Closed : Extension sans modification
